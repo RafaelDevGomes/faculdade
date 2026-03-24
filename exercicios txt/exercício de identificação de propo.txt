@@ -1,0 +1,21 @@
+exercício de identificação de proposição atômica:
+
+1 a terra é plana: sim.
+
+2 desligue o computador agora!: falsa, devido a ser uma frase no imperativo.
+
+3 x>5: falsa, pois é uma conta do qual o valor não é informado.
+
+4 existe vida em outros planetas: falsa, o outros não especifica quais são os planetas.
+
+5 o céu é azul: sim afirmação paizin, msm sendo falsa ou não, ainda é uma afirmação.
+
+6 qual a capital da frança?: falsa pois é uma pergunta.
+
+7 2024 é um ano bissexto: sim.
+
+8 esta sentença tem cinco palavras: sim
+
+9 obrigado pelo seu tempo: sim
+
+10: se a equipe entrega o modulo, o projeto avança: sim

@@ -1,0 +1,38 @@
+exercício raciocionio logico:
+1 p -> (q ^ r)
+2 ~p ^ q
+3 p <--> q 
+4 p v ~q
+5 ~(p^q) 
+
+
+1   P= A rua esta molhada
+    Q= Choveu
+    R= O sol esta brilhando
+
+tradução: a rua esta molhada e o sol não está brilhando.
+       ^
+     /   \   
+    P     ~
+          |
+          R
+
+TRADUÇÃO: não é verdade, se choveu, então a rua está molhada
+          ~
+2         |
+          =>
+         /  \
+        Q    P
+        
+       
+     
+3 TRADUÇÃO: o sol não esta brilhando ou a rua esta molhada se e somente se choveu
+     
+
+      <=>
+     /   \
+    V     Q
+   / \ 
+  ~   P
+  |
+  R
