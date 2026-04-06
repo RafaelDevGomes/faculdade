@@ -35,6 +35,11 @@ header{
     width: 1204px;
     margin: 10px;
 }
+img{
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+}
 aside{
     background-color: orange;
     color: white;
