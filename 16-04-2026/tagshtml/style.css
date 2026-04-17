@@ -1,0 +1,23 @@
+body{
+    background-color: red;
+}
+
+div{
+    border: 2px solid black;
+}
+header{
+    background-color: blue;
+    color: white;
+}
+h2{
+    color: green;
+    background-color: yellow;
+}
+section{
+    background-color: gray;
+    color: purple;
+}
+article{
+    background-color: pink;
+    color: brown;
+}
