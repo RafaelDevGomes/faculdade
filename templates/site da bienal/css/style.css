@@ -11,6 +11,7 @@ header {
     border: 1px solid black;
     justify-content: center;
 }
+
 ul{
     display: flex;
     height: 50px;
@@ -48,6 +49,14 @@ nav{
 main{
     background-color: sienna;
 }
+.noticias{
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+img{
+    margin-right: 10px;
+}
 #secao01{
     display: flex;
     padding: 10px;
@@ -56,6 +65,81 @@ main{
 .pai{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
+    width: 560px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+    p {
+    width: 300px;
+    }
+}
+#esquerda{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#secao02{
+    border: 1px solid black;
+    width: 1400px;
+    background-color: aliceblue;
+}
+
+#miranha{
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+#iguess{
+    display: flex;  
+    background-color: aquamarine;
+    margin-top: 10px;
+    padding: 20px 16px;
+}
+.blocos{
+
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+aside{
+    border: 2px solid blue;
+    width: 500px;
+    background-color: red;
+    height: 500px;
+}
+#ORÇAMENTO{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    background-color: black;
+    border-radius: 24px;    
+}
+
+#ORÇAMENTO:hover{
+    background-color: rgb(0, 255, 42);
+    color: white;
+    padding: 10px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+footer{
+    border: 1px solid black;
+    width: 1834px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    background-color: black;
+    justify-content: center;
     align-items: center;
 }
